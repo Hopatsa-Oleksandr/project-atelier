@@ -1,0 +1,67 @@
+@media (min-width: 670px) and (max-width: 799px){
+.wrapper_container{
+	max-width: 799px;
+	min-width: 600px;
+	margin: 0 auto;
+}
+	.name h1{
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+	.footer_social img,
+	.social img{
+		width: 20px;
+		height: 20px;
+	}
+	.logo img{
+	width: 70%;
+	}
+	.slider-photo>img {
+  width: 130px;
+  height: 130px;
+}
+.nextSlide, .prevSlide {
+	border: 20px solid transparent;
+	}
+	.nextSlide {
+  border-left: 20px solid rgba(112, 198, 196, 0.5);
+}
+.prevSlide {
+  border-right: 20px solid rgba(112, 198, 196, 0.5);
+}
+.catalog_item img{
+	width: 130px;
+	height: 130px;
+}
+.catalog-container img{
+	width: 130px;
+	height: 130px;
+}
+.catalog-object span{
+	font-size: 0.7em;
+}
+#slide_photo img{
+	margin-bottom: 10px;
+	width: 130px;
+	height: 130px;
+}
+.slideBig img{
+	width: 300px;
+	height: 300px;
+}
+.catalog-depiction p{
+	line-height: 1;
+}
+.buttonOrder>input[type=button]{
+	width: 130px;
+}
+.catalog-depiction p{
+	font-size: 1em;
+}
+.catalog-depiction{
+	padding-left: 10px;
+}
+input[type=submit]{
+	width: 220px;
+}
+}
