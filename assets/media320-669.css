@@ -13,6 +13,8 @@ margin: 0 auto;
 .wrapper-menu{
 	display: none;
 	background: #fff;
+	height: 70px;
+	margin-bottom: 50px;
 }
 label.inputMenu{
 	display: flex;
@@ -50,8 +52,9 @@ padding-left: 10px;
 .menu_nav a{
 width: 7em;
 text-align: center;
-background: #F97394;
-font-size: 0.75em;
+line-height: 1.5;
+color: #F97394;
+font-size: 1em;
 }
 .slider img{
 	width: 100%;
@@ -107,8 +110,17 @@ font-size: 0.75em;
 	margin-bottom: 10px;
 }
 .catalog_item img{
-	width: 280px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
+}
+.catalog_item{
+	margin-left: 50px;
+}
+.catalog_item span{
+	position: absolute;
+	background: rgba(249, 115, 148, 0.5);
+	width: 200px;
+	margin-top: -60px;
 }
 .catalog-container img{
 	width: 130px;
@@ -172,11 +184,11 @@ font-size: 0.75em;
 .next{
 	border-left: 20px solid rgba(112, 198, 196, 0.5);
 	left: 80%;
-	top: 50%;
+	margin-top: -50%;
 }
 .prev{
 	border-right: 20px solid rgba(112, 198, 196, 0.5);
-	top: 50%;
+	margin-top: -50%;
 	left: 10%;
 }
 .contacts h2{
