@@ -18,6 +18,8 @@ margin: 0 auto;
 }
 label.inputMenu{
 	display: flex;
+	width: 90%;
+	margin: 0 auto;
 }
 label img{
 margin-top: 10px;
@@ -28,9 +30,8 @@ margin-left: 10px;
 }
 .inputMenu:checked+label+.wrapper-menu{
 flex-direction: column;	
-width: 100%;
+height: 110px;
 padding-top: 2px;
-padding-left: 10px;
 display: flex;
 
 }
@@ -40,22 +41,18 @@ font-style: normal;
 font-weight: normal;
 font-size: 1.125em;
 color: #70C6C4;
-/*margin-left: 21px;*/
-margin-left: 35px;/**/
+margin: 0 auto;
 margin-top: 7px;
 }
 .menu_nav{
 flex-direction: column;	
-width: 100%;
+width: 90%;
 padding-top: 2px;
-padding-left: 10px;
 }
 .menu_nav a{
-width: 7em;
 text-align: center;
-line-height: 1.5;
-/*color: #F97394;*/
-background: #F97394;/**/
+line-height: 2;
+background: #F97394;
 font-size: 1em;
 margin-bottom: 2px;
 
