@@ -14,12 +14,13 @@ margin: 0 auto;
 	display: none;
 	background: #fff;
 	height: 70px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 label.inputMenu{
 	display: flex;
 	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 label img{
 margin-top: 10px;
@@ -30,7 +31,7 @@ margin-left: 10px;
 }
 .inputMenu:checked+label+.wrapper-menu{
 flex-direction: column;	
-height: 110px;
+height: 100%;
 padding-top: 2px;
 display: flex;
 
@@ -48,10 +49,12 @@ margin-top: 7px;
 flex-direction: column;	
 width: 90%;
 padding-top: 2px;
+height: 100%;
 }
 .menu_nav a{
 text-align: center;
-line-height: 2;
+line-height: 2.5;
+height: 40px;
 background: #F97394;
 font-size: 1em;
 margin-bottom: 2px;
@@ -72,9 +75,6 @@ opacity: 0.6;
 .last_works h4,
 .gallery h4{
 	font-size: 1.125em;
-}
-.gallery h4{
-	margin-top: 20px;
 }
 .last_works p,
 .galery p{
@@ -111,7 +111,6 @@ opacity: 0.6;
 .catalog h2{
 	font-size: 1.125em;
 	padding-bottom: 0;
-	margin-top: 20px;
 	margin-bottom: 10px;
 }
 .catalog_item img{
@@ -163,9 +162,6 @@ opacity: 0.6;
 .catalog-container h2{
 	display: none;
 }
-.catalog-wrapper{
-	margin-top: 28px;
-}
 .catalog-watch-work{
 	font-size: 0.875em;
 }
@@ -178,7 +174,6 @@ opacity: 0.6;
 .slideBig img{
 	width: 100%;
 	height: 100%;
-	margin-top: 30px;
 }
 .slideBig{
 	margin: 0;
@@ -255,4 +250,7 @@ form{
 }
 .contact_numbers-phone{
 	display: none;
+}
+.contacts h2{
+	margin-top: 0;
 }
