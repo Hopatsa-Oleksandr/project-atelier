@@ -55,11 +55,11 @@ line-height: 2;
 background: #F97394;
 font-size: 1em;
 margin-bottom: 2px;
-
 }
 .menu_nav a:hover{
-margin-bottom: 0;
+margin-bottom: 2px;
 border: none;
+opacity: 0.6;
 }
 .slider img{
 	width: 100%;
