@@ -58,6 +58,10 @@
 	font-size: 1.125em;
 	font-family: 'Raleway', sans-serif;
 }
+.menu_nav a:hover{
+	border-bottom: 3px solid #fff;
+	margin-bottom: 30px;
+}
 .main_slider img{
 	margin: 0 auto;
 	width: 82.25%;
@@ -133,7 +137,7 @@ align-items: center;
 	justify-content: space-between;
 	margin-top: 60px;
 }
-.footer p{
+.project-development{
 font-family: 'Raleway', sans-serif;
 font-size: 0.75em;
 text-align: center;
@@ -141,6 +145,12 @@ color: #70C6C4;
 margin-top: 63px;
 margin-bottom: 10px;
 }
+.project-development a{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #70C6C4;
+}
+
 
 .breadcrumb{				/*хлебные крошки*/
 	list-style: none;
@@ -195,6 +205,9 @@ margin-bottom: 15px;
 	display: block;
 	background: #F97394;
 	line-height: 3em;
+}
+.catalog_item:hover{
+	opacity: 0.6;
 }
 .catalog_item{
 	margin-bottom: 15px;
@@ -361,6 +374,7 @@ line-height: 2;
 	font-size: 1.5em;
 	margin-bottom: 30px;
 	box-sizing: border-box;
+	border: none;
 }
 .contacts{
 	width: 81.25%;
@@ -441,4 +455,5 @@ input[type=submit]{
 	font-size: 1.5em;
 	font-family:'Raleway', sans-serif;
 	color: #fff;
+	border: none;
 }
