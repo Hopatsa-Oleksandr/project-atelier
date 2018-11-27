@@ -126,6 +126,10 @@ opacity: 0.6;
 	width: 200px;
 	margin-top: -60px;
 	animation: catalogSpan 3s linear;
+	-webkit-animation: catalogSpan 3s linear;
+	-moz-animation: catalogSpan 3s linear;
+	-ms-animation: catalogSpan 3s linear;
+	-o-animation: catalogSpan 3s linear;
 }
 
 @keyframes catalogSpan{
