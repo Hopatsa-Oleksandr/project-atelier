@@ -298,7 +298,9 @@ opacity: 0.6;
 .slider-photo {
   position: relative;
   display: none;
-
+}
+.slider-photo img:hover{
+	opacity: 0.7;
 }
 #one:checked ~ div>.slider-photo:nth-child(1),
 #two:checked ~ div>.slider-photo:nth-child(2),
