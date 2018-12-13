@@ -17,8 +17,6 @@ margin: 0 auto;
 	margin-bottom: 30px;
 }
 label.inputMenu{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	width: 90%;
 	margin: 0 auto;
@@ -32,14 +30,9 @@ margin-left: 10px;
 	display: none;
 }
 .inputMenu:checked+label+.wrapper-menu{
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;	
+flex-direction: column;	
 height: 100%;
 padding-top: 2px;
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
 
 }
@@ -53,10 +46,7 @@ margin: 0 auto;
 margin-top: 7px;
 }
 .menu_nav{
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;	
+flex-direction: column;	
 width: 90%;
 padding-top: 2px;
 height: 100%;
@@ -98,8 +88,7 @@ opacity: 0.6;
 	width: 100%;
 }
 .numbers-phone{
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 .numbers-phone img{
 	width: 20px;
@@ -137,30 +126,6 @@ opacity: 0.6;
 	width: 200px;
 	margin-top: -60px;
 	animation: catalogSpan 3s linear;
-	-webkit-animation: catalogSpan 3s linear;
-	-moz-animation: catalogSpan 3s linear;
-	-ms-animation: catalogSpan 3s linear;
-	-o-animation: catalogSpan 3s linear;
-}
-
-@-webkit-keyframes catalogSpan{
-	0%{
-		background: transparent;
-		margin-top: -30px;
-		opacity: 0.1;
-	}
-	25%{
-		margin-top: -45px;
-		background: transparent;
-		opacity: 0.2;
-	}
-	50%{
-		margin-top: -55px;
-		opacity: 0.3;
-	}
-	100%{
-		margin-top: -60px;
-	}
 }
 
 @keyframes catalogSpan{
@@ -206,7 +171,11 @@ opacity: 0.6;
 .catalog-works-container h2{
 	display: none;
 }
-.slideBig img{
+#slideBig img{
+	width: 100%;
+	height: 100%;
+}
+.slideBig{
 	width: 100%;
 	height: 100%;
 }
@@ -217,14 +186,9 @@ opacity: 0.6;
 	display: none;
 }
 .catalog-works-wrapper{
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .catalog-works-wrapper h2{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	font-size: 1.125em;
 }
@@ -235,7 +199,6 @@ opacity: 0.6;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
 .next,
 .prev{
 	position: absolute;
@@ -282,9 +245,7 @@ input[type=submit]{
 	width: 100%;
 }
 .button__block{
-	-ms-flex-item-align: center;
-	    -ms-grid-row-align: center;
-	    align-self: center;
+	align-self: center;
 	margin-right: 0;
 }
 form{
@@ -295,5 +256,4 @@ form{
 }
 .contacts h2{
 	margin-top: 0;
-}
 }
