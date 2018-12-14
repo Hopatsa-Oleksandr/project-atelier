@@ -51,11 +51,12 @@ $('.slider_responsive').slick({
   asNavFor: '.slide_photo'
 });
 $('.slide_photo').slick({
-  slidesToShow: 3,
+ 	slidesToShow: 3,
   slidesToScroll: 1,
   asNavFor: '.slideBig',
   dots: true,
   centerMode: false,
   focusOnSelect: true,
   vertical: true,
+
 });

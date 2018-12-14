@@ -1,0 +1,290 @@
+@media screen and (max-width: 799px){
+.wrapper_container{
+max-width:500px;
+min-width: 320px;
+margin: 0 auto;
+}
+.top{
+	display: none;
+}
+#input-menu{
+	display: none;
+}
+.wrapper-menu{
+	display: none;
+	background: #fff;
+	height: 70px;
+	margin-bottom: 30px;
+}
+label.inputMenu{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+label img{
+margin-top: 10px;
+margin-left: 10px;
+}
+.inputMenu+label~.wrapper-menu{
+	display: none;
+}
+.inputMenu:checked+label+.wrapper-menu{
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;	
+height: 100%;
+padding-top: 2px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+
+}
+label h1{
+font-family: 'Prata', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.125em;
+color: #70C6C4;
+margin: 0 auto;
+margin-top: 7px;
+}
+.menu_nav{
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;	
+width: 90%;
+padding-top: 2px;
+height: 100%;
+}
+.menu_nav a{
+text-align: center;
+line-height: 2.5;
+height: 40px;
+background: #F97394;
+font-size: 1em;
+margin-bottom: 2px;
+}
+.menu_nav a:hover{
+margin-bottom: 2px;
+border: none;
+opacity: 0.6;
+}
+.slider img{
+	width: 100%;
+}
+.last_works img,
+.gallery img{
+	width: 130px;
+	height: 130px;
+}
+.last_works h4,
+.gallery h4{
+	font-size: 1.125em;
+}
+.last_works p,
+.galery p{
+	font-size: 0.875em;
+}
+.contact_map h4{
+	font-size: 1.125em;
+}
+#map{
+	height: 200px;
+	width: 100%;
+}
+.numbers-phone{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.numbers-phone img{
+	width: 20px;
+	height: 20px;
+}
+.numbers-phone a{
+	font-size: 0.875em;
+	width: 50%;
+}
+.footer_social{
+	width: 62.5%;
+}
+.breadcrumb{
+	display: none;
+}
+
+.slider-container{
+	display: none;
+}
+.catalog h2{
+	font-size: 1.125em;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+/*.catalog_item img{
+	width: 200px;
+	height: 200px;
+}*/
+.catalog_block{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.catalog_item{
+	margin-left: 50px;
+	position: relative;
+}
+.catalog_item span{
+	position: absolute;
+	background: rgba(249, 115, 148, 0.5);
+	max-width: 270px;
+	width: 100%;
+	margin-top: -60px;
+	-webkit-animation: catalogSpan 3s linear;
+	        animation: catalogSpan 3s linear;
+}
+
+@-webkit-keyframes catalogSpan{
+	0%{
+		background: transparent;
+		margin-top: -30px;
+		opacity: 0.1;
+	}
+	25%{
+		margin-top: -45px;
+		background: transparent;
+		opacity: 0.2;
+	}
+	50%{
+		margin-top: -55px;
+		opacity: 0.3;
+	}
+	100%{
+		margin-top: -60px;
+	}
+}
+
+@keyframes catalogSpan{
+	0%{
+		background: transparent;
+		margin-top: -30px;
+		opacity: 0.1;
+	}
+	25%{
+		margin-top: -45px;
+		background: transparent;
+		opacity: 0.2;
+	}
+	50%{
+		margin-top: -55px;
+		opacity: 0.3;
+	}
+	100%{
+		margin-top: -60px;
+	}
+}
+.catalog-object{
+	width: 48%;
+	height: auto;
+}
+.catalog-object span{
+	height: 40px;
+	text-align: center;
+	line-height: 1.5;
+}
+.catalog-object span p{
+	text-align: center;
+}
+.catalog-container h2{
+	display: none;
+}
+.catalog-watch-work{
+	font-size: 0.875em;
+}
+#slide_photo{
+	display: none;
+}
+.catalog-works-container h2{
+	display: none;
+}
+#slideBig img{
+	width: 100%;
+	height: 100%;
+}
+.slideBig{
+	width: 100%;
+	height: 100%;
+}
+.slideBig{
+	margin: 0;
+}
+.buttonOrder{
+	display: none;
+}
+.catalog-works-wrapper{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.catalog-works-wrapper h2{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 1.125em;
+}
+.catalog-depiction p{
+	font-size: 0.875em;
+}
+.catalog-depiction{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.contacts h2{
+	font-size: 1.125em;
+}
+.contacts_p p{
+	font-size: 0.875em;
+}
+.Email_input{
+	display: none;
+}
+.phone_input{
+	height: 20px;
+	width: 220px;
+}
+.NameEmailBlock{
+	height: 20px;
+	width: 220px;
+}
+textarea{
+	height: 100px;
+	width: 220px;
+}
+input[type=submit]{
+	width: 220px;
+	height: 45px;
+	font-size: 1.125em;
+}
+.Name_input{
+	width: 100%;
+}
+.button__block{
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	margin-right: 0;
+}
+form{
+	margin-top: 20px;
+}
+.contact_numbers-phone{
+	display: none;
+}
+.contacts h2{
+	margin-top: 0;
+}
+}

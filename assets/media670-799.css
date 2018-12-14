@@ -1,10 +1,10 @@
-@media (min-width: 670px) and (max-width: 799px){
-.wrapper_container{
+/*@media (min-width: 670px) and (max-width: 799px){
+/*.wrapper_container{
 	max-width: 799px;
 	min-width: 600px;
 	margin: 0 auto;
-}
-	.name h1{
+}*/
+	/*.name h1{
 		font-size: 1.5em;
 		padding-left: 0;
 	}
@@ -31,7 +31,7 @@
 .catalog-object span{
 	font-size: 0.7em;
 }
-#slide_photo img{
+/*#slide_photo img{
 	margin-bottom: 10px;
 	width: 130px;
 	height: 130px;
@@ -39,17 +39,16 @@
 .slideBig img{
 	width: 300px;
 	height: 300px;
-}
-.catalog-depiction p{
+}*/
+/*.catalog-depiction p{
 	line-height: 1;
-}
-.buttonOrder>input[type=button]{
-	width: 130px;
-}
-.catalog-depiction p{
 	font-size: 1em;
 }
-.catalog-depiction{
+/*.buttonOrder>input[type=button]{
+	width: 130px;
+}*/
+
+/*.catalog-depiction{
 	padding-left: 10px;
 }
 input[type=submit]{
