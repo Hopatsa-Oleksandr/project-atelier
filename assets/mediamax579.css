@@ -7,7 +7,7 @@ label h1{
 }
 }
 
-@media screen and (max-width: 413px){
+@media screen and (max-width: 430px){
 	label.inputMenu{
 		width: 100%;
 	}
