@@ -1,6 +1,5 @@
 @media screen and (max-width: 799px){
 .wrapper_container{
-max-width:500px;
 min-width: 320px;
 margin: 0 auto;
 }
@@ -14,7 +13,7 @@ margin: 0 auto;
 	display: none;
 	background: #fff;
 	height: 70px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 label.inputMenu{
 	display: -webkit-box;
@@ -22,11 +21,12 @@ label.inputMenu{
 	display: flex;
 	width: 90%;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 label img{
-margin-top: 10px;
-margin-left: 10px;
+margin-top: 23px;
+width: 30px;
+height: 30px;
 }
 .inputMenu+label~.wrapper-menu{
 	display: none;
@@ -47,7 +47,7 @@ label h1{
 font-family: 'Prata', serif;
 font-style: normal;
 font-weight: normal;
-font-size: 1.125em;
+font-size: 2em;
 color: #70C6C4;
 margin: 0 auto;
 margin-top: 7px;
@@ -76,6 +76,7 @@ opacity: 0.6;
 }
 .slider img{
 	width: 100%;
+	margin-top: -30px;
 }
 .last_works img,
 .gallery img{
@@ -124,10 +125,6 @@ opacity: 0.6;
 	padding-bottom: 0;
 	margin-bottom: 10px;
 }
-/*.catalog_item img{
-	width: 200px;
-	height: 200px;
-}*/
 .catalog_block{
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
@@ -135,6 +132,7 @@ opacity: 0.6;
 .catalog_item{
 	margin-left: 50px;
 	position: relative;
+	width: auto;
 }
 .catalog_item span{
 	position: absolute;
@@ -142,8 +140,8 @@ opacity: 0.6;
 	max-width: 270px;
 	width: 100%;
 	margin-top: -60px;
-	-webkit-animation: catalogSpan 3s linear;
-	        animation: catalogSpan 3s linear;
+	-webkit-animation: catalogSpan 1s linear;
+	        animation: catalogSpan 1s linear;
 }
 
 @-webkit-keyframes catalogSpan{
@@ -151,11 +149,6 @@ opacity: 0.6;
 		background: transparent;
 		margin-top: -30px;
 		opacity: 0.1;
-	}
-	25%{
-		margin-top: -45px;
-		background: transparent;
-		opacity: 0.2;
 	}
 	50%{
 		margin-top: -55px;
@@ -234,9 +227,6 @@ opacity: 0.6;
 	display: -ms-flexbox;
 	display: flex;
 	font-size: 1.125em;
-}
-.catalog-depiction p{
-	font-size: 0.875em;
 }
 .catalog-depiction{
 	margin-top: 20px;
