@@ -28,6 +28,7 @@ h1 {
   line-height: 65px;
   margin-top: 12px;
   padding-left: 50px;
+  text-shadow: 2px 2px 4px #000000;
 }
 a.name {
   text-decoration: none;
@@ -41,7 +42,7 @@ a.name {
   margin-right: 45px;
   width: 12.5%;
   height: 40px;
-  display: -webkit-box;
+  /* display: -webkit-box; */
   display: -ms-flexbox;
   /* display: flex; */
   -webkit-box-pack: justify;
@@ -54,7 +55,7 @@ a.name {
 .wrapper-menu {
   background: #f97394;
   height: 60px;
-  width: 100%;
+  /* width: 100%; */
 }
 .menu_nav {
   display: -webkit-box;
@@ -90,11 +91,13 @@ a.name {
 }
 .last_works h4,
 .gallery h4 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: #70c6c4;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   margin-bottom: 15px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 .last_works p,
 .gallery p {
@@ -141,9 +144,11 @@ a.name {
 .contact_map h4 {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 2.5em;
   line-height: 2;
   color: #70c6c4;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 .numbers-phone {
   display: -webkit-box;
@@ -157,10 +162,10 @@ a.name {
 }
 .numbers-phone a {
   font-family: "Raleway", sans-serif;
-  font-size: 1.125em;
+  font-size: 2.125em;
   color: #000;
   text-decoration: none;
-  width: 15.38%;
+  /* width: 15.38%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,6 +187,9 @@ a.name {
   /* justify-content: space-between; */
   margin-top: 0px;
   padding-left: 220px;
+}
+.footer_social-img {
+  padding-right: 4px;
 }
 .footer_social img:hover {
   opacity: 0.9;
